@@ -1,6 +1,6 @@
 const form = document.getElementById('form-atividade');
-const imgAprovado = '<img src="./aprovado.png" alt="Emoji celebrando"/>';
-const imgReprovado = '<img src="./reprovado.png" alt="Emoji decepcionado"/>';
+const imgAprovado = '<img src=".imagens/aprovado.png" alt="Emoji celebrando"/>';
+const imgReprovado = '<img src=".imagens/reprovado.png" alt="Emoji decepcionado"/>';
 const atividades = []; //para calcular a média final necessário criar array para coletar as informações digitadas pelo usuário 
 const notas = []; //array notas informadas pelo usuário
 const spanAprovado = '<span class= "resultado aprovado">Aprovado</span>';
